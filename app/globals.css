@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-brand:      var(--biz-brand,      #1a5276);
+  --color-brand-dark: var(--biz-brand-dark, #154360);
+  --color-brand-pale: var(--biz-brand-pale, #d6eaf8);
+  --color-accent:     var(--biz-accent,     #2980b9);
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+html { scroll-behavior: smooth; }
