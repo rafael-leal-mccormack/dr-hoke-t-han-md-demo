@@ -8,7 +8,7 @@
   --color-accent-pale: var(--biz-accent-pale, #ecfeff);
   --color-surface:     #f8faff;
 
-  --font-display: var(--nf-display, "Fraunces", ui-serif, Georgia, serif);
+  --font-display: var(--nf-display, "DM Serif Display", ui-serif, Georgia, serif);
   --font-body:    var(--nf-body,    "Noto Sans", ui-sans-serif, system-ui, sans-serif);
   --font-sans:    var(--nf-body,    "Noto Sans", ui-sans-serif, system-ui, sans-serif);
 }

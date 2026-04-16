@@ -1,10 +1,10 @@
 import "./globals.css";
-import { Fraunces, Noto_Sans } from "next/font/google";
+import { DM_Serif_Display, Noto_Sans } from "next/font/google";
 import { business } from "@/data/business";
 
-const fraunces = Fraunces({
+const dmSerifDisplay = DM_Serif_Display({
   subsets: ["latin"],
-  weight: ["400", "500", "600", "700", "900"],
+  weight: ["400"],
   variable: "--nf-display",
 });
 
@@ -38,7 +38,7 @@ export default function RootLayout({ children }) {
         <style dangerouslySetInnerHTML={{ __html: brandVars(business) }} />
       </head>
       <body
-        className={`${fraunces.variable} ${notoSans.variable} font-body antialiased bg-white text-gray-900`}
+        className={`${dmSerifDisplay.variable} ${notoSans.variable} font-body antialiased bg-white text-gray-900`}
       >
         {children}
       </body>
