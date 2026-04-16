@@ -66,7 +66,7 @@ export default function Hero() {
 
         {/* RIGHT — floating doctor card */}
         <div className="animate-fade-in delay-300 hidden md:flex justify-end">
-          <div className="relative">
+          <div className="relative pb-10 pr-2">
             {/* Main card */}
             <div className="bg-brand rounded-[2rem] px-8 py-10 text-white w-[300px] shadow-2xl shadow-brand/20">
               <div className="w-14 h-14 rounded-2xl bg-accent/20 flex items-center justify-center mb-6">
@@ -107,7 +107,7 @@ export default function Hero() {
             </div>
 
             {/* Same-day badge */}
-            <div className="absolute -bottom-5 -left-5 bg-white border border-gray-100 shadow-xl shadow-gray-200/80 rounded-2xl px-5 py-4">
+            <div className="absolute -bottom-2 -left-4 bg-white border border-gray-100 shadow-xl shadow-gray-200/80 rounded-2xl px-5 py-4">
               <p className="text-brand font-display font-semibold text-2xl leading-none">Same</p>
               <p className="text-gray-400 text-xs mt-1">day appointments</p>
             </div>
