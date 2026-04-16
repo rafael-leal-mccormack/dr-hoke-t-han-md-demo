@@ -10,10 +10,10 @@ export default function Footer() {
           </div>
           <span className="text-white font-bold">{business.name}</span>
         </div>
-        <p className="text-white/30 text-sm">
+        <p className="text-white/60 text-sm">
           {business.specialty && `${business.specialty} · `}{business.city} · {business.phone}
         </p>
-        <p className="text-white/30 text-sm">© {new Date().getFullYear()} {business.name}</p>
+        <p className="text-white/60 text-sm">© {new Date().getFullYear()} {business.name}</p>
       </div>
     </footer>
   );
